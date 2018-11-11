@@ -1,5 +1,5 @@
 body{
-    background-image: url("Assets/images/bioImage.jpg");
+    background: url("../images/gravel.png");
 }
 
 p{
@@ -20,6 +20,8 @@ p{
     justify-content: space-between;
     border-bottom: 2px solid #cccccc;
     height: 55px;
+    padding-top: 8px;
+    margin-top: -8px
     }
 
 #pageTitle{
