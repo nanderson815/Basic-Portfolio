@@ -42,6 +42,7 @@ header{
     padding-top: 8px;
     margin-top: -8px;
     margin-left: -7px;
+    z-index: 100;
 }
 
 #pageTitle{
@@ -54,6 +55,7 @@ header{
     display: block;
     overflow: hidden;
     font-size: calc(16px + 1vw);
+    z-index: 101;
 }
 
 nav{
@@ -81,13 +83,44 @@ nav{
 
 .portfolio{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
 .pContainer{
     height: 200px;
     width: 200px;
-    background-color: #4aaaa5;
     margin: 15px 15px 15px 15px;
+    position: relative;
+}
+
+.portfolioObject{
+    color: white;
+    background-color: #4aaaa5;
+    text-decoration: none;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 70%;
+    padding: 10px 0px 10px 0px;
+}
+
+#hangman{
+    background-image: url(https://loremflickr.com/200/200);
+}
+
+#trivia{
+    background-image: url(https://loremflickr.com/200/200/car);
+}
+
+#RPC{
+    background-image: url(https://loremflickr.com/200/200/dog);
+}
+
+#RPG{
+    background-image: url(https://loremflickr.com/200/200/building);
+}
+
+#Rutgers{
+    background-image: url(https://loremflickr.com/200/200/nature);
 }
