@@ -4,10 +4,10 @@ body{
     background: url("../images/gravel.png");
 }
 
-p, label, {
+p, label {
     color: #777777;
     font-family: Georgia, 'Times New Roman', Times, serif;
-}   
+    }   
 
 .navLink {
     text-decoration: none;
