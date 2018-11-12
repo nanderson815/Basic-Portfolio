@@ -4,16 +4,17 @@ body{
     background: url("../images/gravel.png");
 }
 
-p, label, a {
+p, label, {
     color: #777777;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }   
 
-a{
+.navLink {
     text-decoration: none;
     margin-left: 7px;
+    color: #777777;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
 
 header{
     width: 100%;
@@ -74,4 +75,19 @@ nav{
 #message, #name, #email{
     width: 100%;
     margin-top: 5px;
+}
+
+/* These are styles that apply only to the portfolio pages. */
+
+.portfolio{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.pContainer{
+    height: 200px;
+    width: 200px;
+    background-color: #4aaaa5;
+    margin: 15px 15px 15px 15px;
 }
