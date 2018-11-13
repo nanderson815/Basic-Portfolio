@@ -18,6 +18,13 @@ p, label {
     padding-right: 10px;
 }
 
+.navLink:hover{
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    margin-left: -5px;
+}
+
 header{
     width: 100%;
     border-bottom: 2px solid #cccccc;
