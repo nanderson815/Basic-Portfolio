@@ -31,6 +31,10 @@ header{
     margin: 4px 15px 5px 0px;
 }
 
+.biography{
+    text-align: justify;
+}
+
 .navigationBar{
     width: 100%;
     background: #ffffff;
