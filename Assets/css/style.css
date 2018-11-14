@@ -39,6 +39,8 @@ header{
 #bioPic{
     float: left;
     margin: 4px 15px 5px 0px;
+    max-width: 100%;
+    height: auto;
 }
 
 .biography{
