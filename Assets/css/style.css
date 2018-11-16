@@ -60,7 +60,7 @@ header{
 #pageTitle{
     background: #4aaaa5;
     color: white;
-    margin: -10px 0px 0px 10%;
+    margin: -10px 0px 0px 15%;
     height: 55px;
     line-height: 55px;
     padding: 10px 10px 0px 10px;
@@ -70,12 +70,17 @@ header{
 }
 
 nav{
-    margin-right: 10%;
+    margin-right: 15%;
     padding-top: 16px;
 }
 
+
+.wrapper{
+    min-height: calc(100vh - 159px);
+}
+
 .container{
-    margin: 65px 10% 0px 10%;
+    margin: 65px 15% 0px 15%;
     border: 1px solid #dddddd;
     padding: 0px 20px 20px 20px;
     background: #ffffff;
@@ -83,13 +88,12 @@ nav{
     overflow: auto;
 }
 
-footer, .push{
-    height: 50px
-}
-
 footer{
-    background-color: #4aaaa5;
-    margin: -25px 10% 0px 10%;
+    background-color: grey;
+    height: 40px;
+    margin-top: 29px;
+    border-top: 6px solid #4aaaa5;
+    text-align: center;
 }
 
 .social{
@@ -103,19 +107,33 @@ footer{
     margin-top: 5px;
 }
 
+#submitButton{
+    background-color: #4aaaa5;
+    color: white;
+    border: none;
+    height: 30px;
+    width: 60px;
+}
+
+#submitButton:hover{
+    box-shadow: 0px 5px 15px rgb(74, 170, 165, .5);
+}
+
 /* These are styles that apply only to the portfolio pages. */
 
 .portfolio{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin: 25px 0px 0px 0px;
+    margin: 10px 0px -20px 0px;
+    width: 485px;
+    max-width: 100%;
 }
 
 .pContainer{
-    height: 200px;
-    width: 200px;
-    margin: 15px 15px 15px 15px;
+    height: 175px;
+    width: 225px;
+    margin: 5px 15px 35px -5px;
     position: relative;
 }
 
@@ -131,27 +149,27 @@ footer{
 }
 
 .fillingEmptySpace{
-    width: 200px;
+    width: 225px;
     height: 0px;
-    margin: 15px 15px 15px 15px;
+    margin: 5px 15px 10px -5px;
 }
 
 #hangman{
-    background-image: url(https://loremflickr.com/200/200);
+    background-image: url(https://loremflickr.com/225/200);
 }
 
 #trivia{
-    background-image: url(https://loremflickr.com/200/200/car);
+    background-image: url(https://loremflickr.com/225/200/car);
 }
 
 #RPC{
-    background-image: url(https://loremflickr.com/200/200/dog);
+    background-image: url(https://loremflickr.com/225/200/dog);
 }
 
 #RPG{
-    background-image: url(https://loremflickr.com/200/200/building);
+    background-image: url(https://loremflickr.com/225/200/building);
 }
 
 #Rutgers{
-    background-image: url(https://loremflickr.com/200/200/nature);
+    background-image: url(https://loremflickr.com/225/200/nature);
 }
